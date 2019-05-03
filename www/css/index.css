@@ -1,0 +1,17 @@
+.crn{
+  border: 2px solid #4dd0e1!important; /* Green */
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30pt;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #00bcd4!important;
+}
+
+.whiteBlue{
+  background: #00bcd4!important;
+  color: #ffffff!important;
+}

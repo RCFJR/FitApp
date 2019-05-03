@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="utf-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Apache Cordova</title>
+    </head>
+    <body class="has-header grey-100">
+  <div class="header cyan-300 text-white">
+    <div class="left">
+      <button class="icon ion-navicon-round"></button>
+    </div>
+    <div class="title text-center">
+      <span id="dayOfWeek"></spam>
+    </div>
+    <div class="right">
+      <button class="icon ion-search"></button>
+    </div>
+  </div>
+  <div class="row cyan-300 space-between vertical-align-center" style="height: 100px">
+    <div class="col align-center">
+      <span class="text-white text-huge" id="spnDay"></span>
+    </div>
+  </div>
+  <div class="row vertical-align-center cyan text-white">
+    <div class="col-10">
+      <button class="icon ion-calendar text-white"></button>
+    </div>
+    <div class="col align-center">
+      <span id="spnDt"></span>
+    </div>
+    <div class="col-10">
+      <button class="icon ion-calendar text-white"></button>
+    </div>
+  </div>
+  <div class="row-center">
+    <div class="crn">
+      <div id="cronometro" name="cronometro">00:00:00</div>
+    </div>
+  </div>
+  <div class="list">
+    <div class="item">
+      <button class="whiteBlue radius full" id="btnRun">Go</button>
+    </div>
+    <div class="item">
+      <div class="row">
+      <div class="col">
+        <button disabled class="whiteBlue radius full" id="btnClear">Clear</button>
+      </div>
+      <div class="col">
+      </div>
+      <div class="col">
+        <button disabled class="whiteBlue radius full" id="btnSave">Save</button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</body>
+    <script type="text/javascript" src="js/libs/jquery.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</html>
